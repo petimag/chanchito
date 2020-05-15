@@ -1,0 +1,33 @@
+﻿<ContentPage xmlns = "http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prueba.Menu"
+             Title="Menu">
+
+    <StackLayout BackgroundColor="#27496d">
+
+        <Button x:Name="Item1" 
+                Text="Configurar perfiles" 
+                BackgroundColor="#27496d" 
+                TextColor="#FFFFFF" 
+                HorizontalOptions="StartAndExpand" 
+                ImageSource="@drawable/movimiento.png"  />
+
+        <Button x:Name="Item2" 
+                Text="Ingresar importe"  
+                BackgroundColor="#27496d" 
+                TextColor="#FFFFFF" 
+                HorizontalOptions="StartAndExpand"/>
+
+        <Button x:Name="Item3" 
+                Text="Extraer importe" 
+                BackgroundColor="#27496d" 
+                TextColor="#FFFFFF"
+                HorizontalOptions="StartAndExpand"/>
+        
+        <Button x:Name="Item4" 
+                Text="Consultar movimientos"  
+                BackgroundColor="#27496d" 
+                TextColor="#FFFFFF"
+                HorizontalOptions="StartAndExpand"/>
+    </StackLayout>
+</ContentPage>

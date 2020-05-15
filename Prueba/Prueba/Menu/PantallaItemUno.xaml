@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Prueba.PantallaItemUno"
+             Title="Configurar" >
+
+    <StackLayout Orientation="Vertical" BackgroundColor="#dae1e7">
+
+        <Label  x:Name="labelPerfil"
+                Text="Perfil: " 
+                TextColor="#142850" 
+                Margin="30,40,0,0" FontSize="Medium"/>
+
+        <Entry  x:Name="entryNombre"
+                HorizontalOptions="FillAndExpand"
+                TextColor="#142850"
+                BackgroundColor="#E9F5FF" Margin="30,0" 
+                Placeholder="Username" PlaceholderColor="Olive"/>
+
+        <BoxView />
+
+        <Label  x:Name="labelPerfil"
+                Text="Perfil: " 
+                TextColor="#142850" 
+                Margin="30,40,0,0" FontSize="Medium"/>
+
+        <Button x:Name="buttonCrear"
+                Text="OK"
+                VerticalOptions ="End"
+                HorizontalOptions="End"
+                BackgroundColor="#dae1e7" 
+                TextColor="#00909e" 
+                Margin="0,0,30,30" 
+                FontAttributes="Bold" FontSize="Large"/>
+        
+
+    </StackLayout>
+</ContentPage>
