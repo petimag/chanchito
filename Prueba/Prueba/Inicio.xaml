@@ -8,11 +8,7 @@
              BackgroundColor= "#dae1e7">
 
     <StackLayout>
-        <ListView ItemsSource="">
-            <ListView.ItemTemplate>
-                <DataTemplate></DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+
 
         <Button Text="NECESIDADES BÁSICAS                $200" CornerRadius="5" BorderColor="#00B5C6" BorderWidth="2" Margin="30,30,30,0" TextColor="#FFFFFF" BackgroundColor="#00909E" />
 

@@ -22,7 +22,7 @@
 
         <BoxView />
 
-        <Label  x:Name="labelPerfil"
+        <Label  x:Name="labelNombre"
                 Text="Perfil: " 
                 TextColor="#142850" 
                 Margin="30,40,0,0" FontSize="Medium"/>
